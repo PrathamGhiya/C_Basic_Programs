@@ -1,0 +1,21 @@
+#include "stdio.h"
+int main(){
+
+    // Print 1 to 10 nos
+    // int i=1;
+    // while(i<=10) printf("\n%d",i++);
+
+    // Print 1 to n nos (while loop)
+    // int i=1, n;
+    // printf("Enter a no.: ");
+    // scanf("%d",&n);
+    // while(i<=n) printf("\n%d",i++);
+
+    // Print 1 to n nos (do...while loop)
+    int i=1, n;
+    printf("Enter a no.: ");
+    scanf("%d",&n);
+    do{
+        printf("\n%d",i++);
+    }while(i<=n);
+}
